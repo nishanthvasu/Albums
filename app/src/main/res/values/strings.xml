@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ALBUMS</string>
+    <string name="toast_connectinternet">Oops! Please connect to your Internet and click on the icon below to load your albums initially</string>
+</resources>

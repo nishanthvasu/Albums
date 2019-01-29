@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pad_100dp"
+        android:background="@color/green">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="@dimen/pad_50dp"
+            android:layout_height="@dimen/pad_50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_wifi" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/llNodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/pad_20dp"
+            android:text="@string/toast_connectinternet"
+            android:textColor="@color/neutral"
+            android:textSize="@dimen/txt_15sp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnReload"
+            android:layout_width="@dimen/pad_50dp"
+            android:layout_height="@dimen/pad_50dp"
+            android:background="@drawable/ic_download"
+            android:paddingBottom="@dimen/pad_10dp" />
+
+    </LinearLayout>
+</LinearLayout>
